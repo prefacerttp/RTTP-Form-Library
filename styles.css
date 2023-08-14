@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#web-title {
+  font-size: medium;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.banner > h1 {
+  color: white;
+  position: absolute;
+  bottom: 12%;
+  right: 30%;
+  left: 55%;
+  padding-top: 5%;
+  min-width: 20vh;
+}
+
+.banner {
+  background-color: rgb(68, 74, 84);
+  height: 30%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  transform: scale(3) translateX(-20%) translateY(-30%);
+  padding: 7%;
+  min-height: 5vh;
+}
+
+.forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 100%;
+  margin: 4% 0%;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  height: 200vh;
+}
+
+#outer-blk {
+  border: 1px solid #b8b8b8;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 200vh;
+}
+
+.inner-blk {
+  border: 1px solid #b8b8b8;
+  border-radius: 25px;
+  height: 37%;
+}
+
+#top {
+  height: 30%;
+}
+
+#bottom {
+  margin-top: 5%;
+  height: 60%;
+}
+
+body {
+  font-family: "Galano Grotesque", "Noto Sans TC", "Noto Sans JP", -apple-system,
+    ".SFNSText-Regular", "San Francisco", BlinkMacSystemFont, Roboto, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Lucida Grande", sans-serif;
+}
+
+.pamphlet-blk__btn-container button {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  min-height: 35px;
+  appearance: none;
+  display: inline-block;
+  text-decoration: none;
+  border: 0px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(248, 116, 0);
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 250ms ease-in-out 0s;
+  padding-top: 0.875rem;
+  padding-right: 1rem;
+  padding-bottom: 0.875rem;
+  padding-left: 1rem;
+}
+
+.pamphlet-blk__btn-container2 button {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  min-height: 35px;
+  appearance: none;
+  display: inline-block;
+  text-decoration: none;
+  border: 0px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(0, 189, 175);
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 250ms ease-in-out 0s;
+  padding-top: 0.875rem;
+  padding-right: 1rem;
+  padding-bottom: 0.875rem;
+  padding-left: 1rem;
+}
+
+.pamphlet-blk,
+.inner-blk {
+  padding: 2.4375em;
+}
+
+.pamphlet-blk__title {
+  margin-bottom: 5%;
+}
+
+.pamphlet-blk__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3%;
+}
+
+.pamphlet-blk__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pamphlet-blk__file {
+  width: 60%;
+}
