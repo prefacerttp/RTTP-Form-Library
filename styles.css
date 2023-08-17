@@ -185,22 +185,6 @@ button:hover {
   width: 60%;
 }
 
-@media screen and (max-width: 709px) {
-  .banner > h1 {
-    font-size: 0.3rem;
-    bottom: 18%;
-  }
-
-  .banner > p {
-    font-size: 0.2rem;
-    bottom: 10%;
-  }
-
-  img {
-    height: 0.1vh;
-  }
-}
-
 #contact {
   background-color: #f2f2f2;
   padding: 3%;
@@ -215,4 +199,26 @@ a[href^="mailto"] {
   color: black;
   font-weight: bold;
   text-decoration: none;
+}
+
+@media screen and (max-width: 709px) {
+  .banner > h1 {
+    font-size: 0.3rem;
+    bottom: 18%;
+  }
+
+  .banner > p {
+    font-size: 0.2rem;
+    bottom: 10%;
+  }
+
+  img {
+    height: 0.1vh;
+  }
+
+  .pamphlet-blk,
+  .inner-blk {
+    min-width: 150px;
+    padding: 1em;
+  }
 }
